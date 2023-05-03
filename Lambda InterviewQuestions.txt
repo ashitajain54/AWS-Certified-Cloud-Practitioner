@@ -1,0 +1,64 @@
+1.  What is AWS Lambda?
+	ANS:AWS Lambda is a serverless, event-based computing platform that Amazon offers as part of Amazon Web Services. It is a computing service which runs code to events and automatically manages the computing resources that this code requires.
+
+2. What limitations apply to AWS Lambda function code?
+	ANS: Lambda introduces very few limits on standard language and operating system operations. However, there are few disabled activities such as inbound network connections and trace calls (a debugger system), and traffic from TCP port 25 as an anti-spam measure. IP/TCP sockets support outbound connections.
+
+3. What events can trigger an AWS Lambda function?
+	ANS: Lambda-based applications (also known as serverless applications) are composed of functions triggered by events. A standard serverless application consists of one or more functions triggered by events such as object uploads to Amazon S3, Amazon SNS notifications, or API actions.
+
+4. What can trigger an execution of the Lambda function?
+	ANS: This is a list of services invoking asynchronous functioning of Lambda
+
+	Amazon Simple Storage Service
+	Amazon Simple Notification Service
+	Amazon Simple Email Service
+	AWS CloudFormation
+	Amazon CloudWatch Logs
+	Amazon CloudWatch Events
+	AWS CodeCommit
+	AWS Config
+
+5. What are the factors that decide how AWS Lambda is charged?
+	ANS: You are charged based on the amount of time it takes for your code to execute is dependent on the number of requests for your functions and the duration. Lambda counts a request each time it begins executing in response to an event notification or invoke call, including test invokes from the console.
+
+6. What's AWS Lambda's best language?
+	ANS: Node and Python are recognised as the leading Lambda language.
+
+7. What are different ways to trigger Lambda?
+	ANS: API Gateways
+	     S3 events
+	     Dynamo DB
+
+8. How does AWS Lambda secure my code?
+	ANS: User codes in AWS Lambda can be stored in the Amazon S3, and then the code can be encrypted with the help of suitable methods. AWS Lambda is used to carry out extra data integrity checks when the code runs.
+
+9. How long can an AWS Lambda function execute?
+	ANS: The complete execution will take about 300 seconds from placing user calls to AWS Lambda. Three seconds will be taken as the default time out, and then you can set any timeout value between 1 - 300 seconds.
+
+10. Can packages be used with AWS Lambda?
+	ANS: The answer is yes. Users can efficiently use customized and NPM packages in AWS Lambda.
+
+11. How to get started with a serverless application?
+	ANS: Users need to console the AWS Lambda and download the blueprint to get started. The original file will then get downloaded and should have an AWS Sam file and a ZIP file. The AWS Cloud formation commands are used to package and deploy serverless application codes and perform documentation. Add this to your list of important AWS Lambda interview questions, and prepare accordingly.
+
+12. Can AWS Lambda be called a microservice?
+	ANS: If you’ve heard of terms such as serverless or functions as a service, it is Amazon’s implementation of these concepts, and a microservice architecture is one way that it can be used to improve your site or application.
+
+13. List some use cases for AWS Lambda?
+	ANS: AWS Lambda can be used for operating serverless websites, rapid document conversion, predictive page rendering, working with external services, log analysis on the fly.
+
+14. What are the difference B/W Rest API and HTTP API?
+	ANS: REST APIs support more features than HTTP APIs, while HTTP APIs are designed with minimal features so that they can be offered at a lower price.
+
+15. What is Rest API?
+	ANS: A REST API is a way for two computer systems to communicate using the HTTP technologies found in web browsers and servers.
+
+16. what is HTTP API?
+	ANS: An HTTP API is an API that uses Hypertext Transfer Protocol as the communication protocol between the two systems.
+
+17. What is Lambda Serverless?
+	ANS: AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.
+
+18. Are all APIs JSON?
+	ANS: The vast majority of APIs today are using the JavaScript Object Notation (JSON) to represent the structured data that they are exchanging.

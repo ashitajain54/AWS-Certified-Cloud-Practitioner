@@ -1,0 +1,55 @@
+1 What is AWS IAM?
+ANS: It is a web service that helps you securely control access to AWS resources.
+
+2 What are the key capabilities provided by AWS IAM?
+ANS: Using IAM policies, you grant access to specific AWS service APIs and resources. You also can define specific conditions in which access is granted, such as granting access to identities from a specific AWS organization or access through a specific AWS service.
+
+3 What are the different identities provided by IAM?
+ANS: IAM Identities (users, user groups, and roles)
+  1. AWS account root user. When you first create an Amazon Web Services (AWS) account, you begin with a single sign-in identity that has complete access to all AWS services and resources in the account.
+  2. IAM users.
+  3. IAM user groups.
+  4. IAM roles.
+  5. Temporary credentials in IAM.
+  
+4 What is AWS account root user?
+ANS: When you first create an Amazon Web Services (AWS) account, you begin with one identity that has complete access to all AWS services and resources in the account.
+
+5 What are some best practices to manage access to AWS resources?
+  ANS: Use Temporary Credentials
+  Required MFA(Multifactor Authentication)
+  Rotate Access Keys
+  Use IAM Access Analyzer
+  Setting Permissions
+  Delegate Permissions Management
+  
+6 What are AWS policies?
+ANS: A policy is an object in AWS that, when associated with an entity or resource, defines their permissions.
+
+7 What are Jason Policy?
+ANS: A policy. json file is a text file in JSON (Javascript Object Notation) format.
+
+8 Explain different types of user accounts in AWS Cloud?
+ANS: A single AWS account can, and typically does contain many users and roles. There are two types of accounts in an organization: a single account that is designated as the management account, and one or more member accounts. The management account is the account that you use to create the organization.
+
+8 what are the differences between Root user and IAM user?
+ANS: The root user is created when the AWS account is created. IAM users are created by the root user or an IAM administrator for the account.
+Root user have Full access, root user can work on anything in AWS Console but for IAM user policies are provided by the Root User.
+
+9 What are access keys for IAM Users?
+ANS: Access keys are long-term credentials for an IAM user or the AWS account root user.
+
+10 What is IAM Role?
+ANS: An IAM role is an IAM identity that you can create in your account that has specific permissions.
+
+11. What is Authentication in IAM?
+ANS: Authentication occurs whenever a user attempts to access your organization's network and downstream resources
+
+12. What is Authorization in IAM?
+ANS: Authorization carries out the rest of an organization's identity and access management processes once the user has been authenticated
+
+13. What are Programmatic Access in IAM?
+ANS: Programmatic access allows you to invoke actions on your AWS resources either through an application that you write or through a third-party tool. You use an access key ID and a secret access key to sign your requests for authorization to AWS.
+
+14. What are Console Access in IAM?
+ANS: The AWS Management Console provides a web-based user interface that you can use to create and manage your AWS resources.

@@ -1,0 +1,83 @@
+1. What is AWS EC2?
+
+ANS:	AWS EC2 is a service offered by Amazon to help customers to host compute services in their IT environment as a part of cloud computing. Amazon EC2 removes all of the manual setup typically involved in running virtual servers. It gives you full control over your computing resources, which you can scale as needed.
+
+2. What is the full form of EC2?
+
+ANS:	Amazon Elastic Compute Cloud
+
+3. What is an Instance in EC2?
+
+ANS:	An instance is a virtual server running apps on AWS EC2. An instance may represent a small segment of a single machine, that has a separate hard drive or OS, etc. From one physical machine you may have multiple little computers (Virtual machines) which are referred to as Instances.
+
+4. Why do we use EC2?
+
+ANS:	Amazon EC2 allows you to create as many or as few virtual servers as you need, manage security and networking, and configure storage in real time. Amazon EC2 lets you scale up or Scale down your workload as needed to meet changing business requirements. This way, you’re able to manage unexpected surges without sacrificing availability.
+
+5. What do you mean by Spot instances in AWS EC2?
+
+ANS:	AWS Spot Instances let you make use of unused EC2 capacity on the AWS cloud. You can get Spot Instances at up to 90% off On-Demand prices. Spot Instances can be used for a variety of stateless, fault-tolerant, or flexible applications, such as big data, containerized workloads, etc.
+
+6. What is Reserved instances in AWS EC2?
+
+ANS	:Reserved Instances are provided by Amazon Web Services (AWS) for customers to use for a variety of tailor-made uses. Amazon provides EC2 Reserved Instances at an hourly rate as well as an optional reservation of capacity for such instances at the same time.
+
+7.  Explain the benefits of AWS EC2.
+
+ANS:
+Reliability: Each Amazon EC2 region in the Amazon Web Services network has an SLA of 99.9% availability. Thus, instance replacement is simple and fast.
+Security: Amazon implements Amazon VPC to deliver stable networking and security. The compute instances reside in a virtual private cloud (VPC) that is logically partitioned with a specific IP range.
+Flexibility: Choosing an EC2 instance can involve different factors such as types, software packages, instance storage, and operating systems. You can configure the memory, CPU, and boot partition size to suit the operating system and application.
+Cost Saving: EC2 is cost-effective because it enables consumers to configure plans to suit their needs. This will allow them to save money and maximize their resources. Amazon has such great savings because the power and scale of their EC2 instance is significantly lower in cost, compared to the other cloud providers.
+
+8. Why EC2 is Important?
+
+ANS:	No need of any hardware.
+	Scalable up and down.
+	Pay for what you use.
+	Full control on machine.
+	Secure
+	Accessible from anywhere in the world via internet enabled device.
+
+9. What is the AWS EC2 instance classification?
+
+ANS:	On-Demand Instances
+	Spot instances
+	Reserved Instances (RI)
+
+10. Is Amazon EC2 IaaS or PaaS?
+
+ANS:	EC2 is IaaS (infrastructure as as service)
+
+11. What is AMI in AWS EC2?
+
+ANS:	The Amazon Machine Image is a special type of virtual appliance used to create a virtual machine within the Amazon Elastic Compute Cloud. The AMI is the unit of deployment for services delivered through EC2.
+
+12. What are regions and availability zones in AWS EC2?
+
+ANS:	Amazon EC2 is deployed at several locations throughout the world, each of which includes regions and Availability Zones. The regions are actually different geographical areas. There are many individual places in each region called Availability Zones.
+
+13. What Is Security Group In Amazon Ec2 ?
+
+ANS:	When added to an instance, security groups function as a firewall, controlling the incoming and outgoing traffic of that instance.
+
+14. Explain the Best Practices For Amazon Ec2 ?
+
+ANS: 	To receive the most benefits and satisfactions from and in Amazon EC2:
+	Security and Network Best Practices
+	Storage
+	Resource Management
+	Backup and Recovery
+
+15. What is the use of a Key Pair?
+
+ANS:	With key pairs, users can log in to their instances securely. Public-key cryptography is utilized to keep information such as login credentials safe.
+
+16. Can we create our own AMI if yes how?
+
+ANS:	Yes we can create our own AMI, you can Launch an instance from a public AMI and save it to use for your own project as a custom AMI.
+
+16. Can you Change Private IP Addresses On An EC2 in an Aws VPC when it is in running state?
+
+ANS:	A primary private IP address cannot be changed, but secondary private addresses can be moved between interfaces or instances at any time.
+

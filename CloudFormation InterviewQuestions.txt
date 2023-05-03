@@ -1,0 +1,61 @@
+1. What is AWS CloudFormation?
+	ANS: AWS CloudFormation is an AWS service that uses template files to automate the setup of AWS resources.
+
+2. Explain CloudFormation's working model?
+	ANS: CloudFormation creates a bucket for each region in which you upload a template file. The buckets are accessible to anyone with Amazon Simple Storage Service (Amazon S3) permissions in your AWS account. If a bucket created by CloudFormation is already present, the template is added to that bucket.
+
+3. What are benefits of AWS CloudFormation?
+	ANS: 1.	Deployment speed.
+	     2. Scaling up.
+	     3. Service integration.
+	     4. Consistency.
+	     5. Security.
+	     6. Easy updates.
+	     7. Auditing and change management.
+	     8. Template.
+
+4. How can you create and delete stacks of AWS?
+	ANS: 1.	On the Stacks page in the CloudFormation console, select the stack that you want to delete. The stack must be currently running.
+	     2. In the stack details pane, choose Delete.
+             3. Select Delete stack when prompted.
+
+5. Difference between SAM template and Cloudformation template?
+	ANS: SAM templates are a superset of Cloudformation. Any Cloudformation template can be run through SAM unchanged, and it will work. SAM supports all the types available in Cloudformation templates.
+
+6. What is Coludformation Template?
+	ANS: A template is a declaration of the AWS resources that make up a stack.
+
+7. What are the codes that we use in cloudformation?
+	ANS: Jason and Yaml
+
+8.What are the main components of CloudFormation?
+	ANS: A CloudFormation template consists of 6 sections – Description, Parameters, Mappings, Conditions, Resources and Outputs.
+
+9. What is the format of CloudFormation template?
+	ANS: AWS CloudFormation templates in JSON or YAML formats.
+
+10. What are parameters CloudFormation?
+	ANS: Parameters can be used inside the CloudFormation template to refer to values that are provided at the time the CloudFormation template is used to create a new stack.
+
+11. What are Resources in Cloudformation?
+	ANS: In AWS, a resource is an entity that you can work with. Examples include an Amazon EC2 instance, an AWS CloudFormation stack, or an Amazon S3 bucket. If you work with multiple resources, you might find it useful to manage them as a group rather than move from one AWS service to another for each task.
+
+12. what is an AWS Stack?
+	ANS: A stack is a collection of AWS resources that you can manage as a single unit.
+
+13. What are the limitations of CloudFormation?
+	ANS: The new per template limits for the maximum number of resources is 500 (previously 200), parameters is 200 (previously 60), mappings is 200 (previously 100), and outputs is 200 (previously 60).
+
+14. How do you increase stack limit in CloudFormation?
+	ANS: Maximum number of AWS CloudFormation stack sets you can create in your administrator account. To create more stack sets, delete stack sets that you don't need or request an increase in the maximum number of stack sets in your AWS account.
+
+15. Why would you use AWS CloudFormation?
+	ANS: AWS CloudFormation is a service that helps you model and set up your AWS resources so that you can spend less time managing those resources and more time focusing on your applications that run in AWS.
+
+16. What are the steps involved in a CloudFormation Solution?
+	ANS: Step 1: Pick a template.
+	     Step 2: Make sure you have prepared any required items for the stack.
+	     Step 3: Create the stack.
+	     Step 4: Monitor the progress of stack creation.
+	     Step 5: Use your stack resources.
+	     Step 6: Clean up.

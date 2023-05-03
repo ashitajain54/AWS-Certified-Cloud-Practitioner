@@ -1,0 +1,44 @@
+1. what is VPC?
+  ANS : Amazon Virtual Private Cloud enables you to launch Amazon Web Services resources into a virtual network you've defined.
+  
+2.  what is the full form of VPC?
+  ANS: Virtual Private Cloud
+  
+3. what are the components of VPC?
+  ANS: 1. VPC CIDR Block.
+       2. Subnet
+       3. Gateways
+       4. Route Table
+       5. Network Access Control Lists (ACLs)
+       6. Security Group.
+       
+4. What is CIDR and Full form of CIDR?
+  ANS: Classless Inter-Domain Routing
+  Classless inter-domain routing (CIDR) is a set of Internet protocol (IP) standards that is used to create unique identifiers for networks and individual devices.
+
+5. What is DHCP?
+  ANS:  Dynamic Host Configuration Protocol (DHCP) is a network protocol that is used to configure network devices to communicate on an IP network.
+  
+6. What is the default address for IPV4 CIDR block?
+  ANS: 10.0.0.0/16
+  
+8. What are Subnets?
+  ANS: A subnet is a range of IP addresses in your VPC.
+  
+9. Explain about Route Tables in VPC?
+  ANS: The route table contains existing routes with targets other than a network interface, Gateway Load Balancer endpoint, or the default local route.
+  
+10. What is internet gateway?
+  ANS: An internet gateway is a horizontally scaled, redundant, and highly available VPC component that allows communication between your VPC and the internet.
+
+11. Is internet gateway a public or private?
+  ANS: It can be Public as well as Private we will use according to our requirements.
+  
+12. What is the default IP address for internet gateway?
+    ANS: 0.0.0.0/0
+    
+13.What is NAT gateway?
+    ANS: NAT Gateway is a highly available AWS managed service that makes it easy to connect to the Internet from instances within a private subnet in an Amazon Virtual Private Cloud (Amazon VPC).
+
+14. Is NAT  gateway a public or private?
+  ANS: it is created in a public subnet.

@@ -1,0 +1,51 @@
+1. What is Autoscaling?
+ANS: AWS Auto Scaling monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost.
+
+2. What is the difference between "Manual Scaling" and "Auto Scaling"?
+ANS: Manual scaling: This scaling plan enables the user to define the required capacity of AWS auto-scaling groups. The auto-scaling service takes care of generating and terminating instances automatically.
+
+3. Why we need Load Balancers?
+ANS: Load balancing lets you evenly distribute network traffic to prevent failure caused by overloading a particular resource.
+
+4. What is Application Load Balancer?
+ANS: A load balancer serves as the single point of contact for clients.
+
+5. What is Network Load Balancer?
+ANS: A load balancer serves as the single point of contact for clients. The load balancer distributes incoming application traffic across multiple targets, such as EC2 instances, in multiple Availability Zones. This increases the availability of your application.
+
+6. What is Gateway Load Balancer?
+ANS: A Gateway Load Balancer endpoint is a VPC endpoint that provides private connectivity between virtual appliances in the service provider VPC
+
+7. What are the types of Load Balancers?
+ANS: Application Load Balancer
+  Network Load Balancer
+  Gateway Load Balancer
+  
+8. What are differences b/w Network Load Balancers and Application Load Balancers?
+ANS: NLB natively preserves the source IP address in TCP/UDP packets; in contrast, ALB and ELB can be configured to add additional HTTP headers with forwarding information, and those have to be parsed properly by your application.
+NLB -Layer 4, Transport Layer, Directs traffic based on IP addresses and transport layer ports, without visibility into the contents of the protocol data units sent or received.
+ALB - Layer 7, Application Layer, Examines incoming traffic from internee-facing applications and directs requests based on application layer protocol request header data.
+
+9. What are the advantages of Autoscaling?
+ANS: Better fault tolerance. Amazon EC2 Auto Scaling can detect when an instance is unhealthy, terminate it, and launch an instance to replace it.
+
+10. What are the two main components of AWS Auto Scaling?
+ANS: Launch Configurations and Auto Scaling Groups.
+
+11. What are the different types of Auto Scaling?
+ANS: Dynamic scaling and Predictive scaling
+
+12. What is Desired Capcity in Auto Scaling?
+ANS:  Represents the initial capacity of the Auto Scaling group at the time of creation.
+
+13.What is the Use of AWS Auto Scaling?
+ANS: AWS Auto Scaling continually monitors your applications to make sure that they are operating at your desired performance levels.
+
+14. How many EC2 instances can you have in an Auto Scaling Group?
+ANS: Auto Scaling group has a minimm size of one instance, a desired capacity of two instances, and a maximum size of four instances.
+
+15. What is the minimum Capcity in Auto Scaling?
+ANS: This Auto Scaling group has a minimum size of one instance.
+
+16. Can Auto Scaling Upgrade instance?
+ANS: You can use an instance refresh to update the instances in your Auto Scaling group instead of manually replacing instances a few at a time.

@@ -1,0 +1,49 @@
+1. What is S3 Bucket?
+  ANS: A bucket is a container for objects stored in Amazon S3.
+  
+2. What is Versioning in S3?
+  ANS: Versioning in Amazon S3 is a means of keeping multiple variants of an object in the same bucket.
+  
+3. What is a object URL and how is it constructed ?
+   ANS: Object URLs are URLs that point to files on disk.
+   Suppose, for example, that you want to display an image from the user's system on a web page. The server never needs to know about the file, so there's no need to upload it. You just want to load the file into a page.
+   
+4. What are steps of uploading a file in S3 Bucket?
+  ANS: 1. Choose the name of the data folder.
+       2. In the Upload - Select Files wizard, choose Add Files.
+       3. Choose Start Upload.
+       
+5. What are the advantage of using S3 Bucket?
+  ANS: Amazon S3 gives every user, its service access to the same highly scalable, reliable, fast, inexpensive data storage infrastructure that Amazon uses to run its own global network of websites.
+  
+7. What are the retention options offered by S3 object lock?
+  ANS: S3 Object Lock provides two retention modes:
+    1 Governance mode
+    2 Compliance mode
+Before you can lock any objects, you have to configure a bucket to use S3 Object Lock. To do this, you specify when you create the bucket that you want to enable Object Lock. After you configure a bucket for Object Lock, you can lock objects in that bucket using retention periods, legal holds, or both.
+
+8. Define all types of Storage Classes in AWS S3?
+  ANS: S3 Standard, S3 Intelligent-Tiering, S3 Standard-IA, and S3 One Zone-IA.
+  
+9. Write down the Differences Between S3 And EBS?
+   ANS: Amazon S3: Amazon S3 is a simple storage service offered by Amazon and it is useful for hosting website images and videos, data analytics, etc. S3 is an object-level data storage that distributes the data objects across several machines and allows the users to access the storage via the internet from any corner of the world.
+
+Amazon EBS: Unlike Amazon S3, Amazon EBS is a block-level data storage offered by Amazon. Block storage stores files in multiple volumes called blocks, which act as separate hard drives, and this storage is not accessible via the internet. Use cases include business continuity, transactional and NO SQL database, software testing, etc.
+   
+10. What type of storage is S3?
+  ANS: (By Default it is Standard Class Storage) Amazon S3 is object storage built to store and retrieve any amount of data from anywhere. It's a simple storage service that offers industry leading durability, availability, performance, security, and virtually unlimited scalability at very low costs.
+  
+11. Explain Lifecycle Policy in S3?
+   ANS: An S3 Lifecycle configuration is an XML file that consists of a set of rules with predefined actions that you want Amazon S3 to perform on objects during their lifetime. You can also configure the lifecycle by using the Amazon S3 console, REST API, AWS SDKs, and the AWS Command Line Interface (AWS CLI).
+   
+12. What are the differences between standard class and Glacier class?
+  ANS: Amazon S3 is a durable, secure, simple, and fast storage service, while Amazon S3 Glacier is used for archiving solutions. Use S3 if you need low latency or frequent access to your data. Use S3 Glacier for low storage cost, and you do not require millisecond access to your data.
+  
+14. How to delete a AWS s3 bucket?
+  ANS: If you no longer need to store the file you've uploaded to your Amazon S3 bucket, you can delete it. Within your S3 bucket, select the file that you want to delete, choose Actions, and then choose Delete. In the confirmation message, choose OK.
+  
+15. What is the default storage class in AWS S3?
+  ANS: Standard Class Storage
+  
+16. What is Amazon S3 Replication?
+    ANS: Amazon Simple Storage Service (S3) Replication is an elastic, fully managed, low cost feature that replicates objects between buckets.

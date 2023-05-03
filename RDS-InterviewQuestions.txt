@@ -1,0 +1,71 @@
+1. What is AWS RDS?
+	ANS: Amazon Relational Database Service (RDS) is a distributed relational database service provided by Amazon Web Services. It is a web service that runs "in the cloud" and is designed to facilitate the setup, operation, and scaling of a relational database to be used in applications.
+
+2. What is RDS DB instance?
+	ANS: A DB instance is a standalone database environment in the AWS Cloud. Your DB instance may include numerous user-created databases. You can access your DB instance with the same tools and applications that you would use to access a standalone database instance.
+
+3. Which database engines are supported with Amazon RDS?
+	ANS: Amazon RDS currently supports below databases:
+
+	1. MySQL
+	2. PostgreSQL
+	3. MySQL
+	4. MariaDB
+	5. Oracle
+	6. Microsoft SQL Server
+
+4. What is the maximum number DB instances can user can run with Amazon RDS?
+	ANS: User are allowed to have up to 40 Amazon RDS DB instances by default. Under the "License Included" model, up to 10 from those 40 can be Oracle or SQL Server DB instances.
+
+5. How to upgrade Amazon RDS instances?
+	ANS: The modify-db-instance command can be used to upgrade Amazon RDS instances. Data migration is not required. However there would be some downtime/OutageTime roughly 5 minutes.
+
+6. What are the top Alternatives to Amazon RDS?
+	ANS: Below are the most popular alternatives and competitors to Amazon RDS.
+		1. Amazon Redshift
+		2. Apache Aurora
+		3. MySQL, Oracle
+		4. Heroku Postgres
+
+7. How to enable automated backups in RDS?
+	ANS: Using RDS API
+		You can use the RDS API ModifyDBInstance operation to enable automated backups in RDS with the following required parameters:
+		1. DBInstanceIdentifier
+		2 .BackupRetentionPeriod
+
+8. What are the features of Amazon Database?
+	ANS: 	Easy to administer
+		Highly scalable
+		Durable and reliable
+		Faster performance
+		Highly available
+		More secure
+		Cost-effective
+
+9. What is AWS RDS used for?
+	ANS: Amazon Relational Database Service (RDS) is a managed SQL database service provided by Amazon Web Services (AWS). Amazon RDS supports an array of database engines to store and organize data. It also helps with relational database management tasks, such as data migration, backup, recovery and patching.
+
+10.What type of data is stored in RDS?
+	ANS: Amazon RDS provides three storage types: General Purpose SSD (also known as gp2), Provisioned IOPS SSD (also known as io1), and magnetic (also known as standard).
+
+11. What is the difference between EC2 and RDS?
+	ANS: Amazon RDS is easier to set up, manage, and maintain than running Oracle Database on Amazon EC2, and lets you focus on other important tasks, rather than the day-to-day administration of Oracle Database. Alternatively, running Oracle Database on Amazon EC2 gives you more control, flexibility, and choice.
+
+12. Is Amazon RDS Iaas or Pass?
+	ANS: Amazon RDS is a PaaS as it only provides a platform or a set of tools to manage your database instances. AWS is Iaas, but the RDS provided by the AWS is PaaS.
+
+13. What is a DB instance in AWS RDS?
+	ANS: A database instance is an isolated database environment that is running in the cloud. Users can set-up and manage multiple user-created databases within one instance. A DB instance is a set of memory structures that manages database files.
+
+14. What are the features of RDS?
+	ANS: 
+		It is easy to administer the project from conception to deployment using the Amazon RDS as there is no need for infrastructure provisioning or installing and maintaining the database software.
+		Amazon RDS is highly scalable. You can increase the compute and storage resource with only a few mouse clicks or an API call.
+		It is a highly reliable infrastructure as it synchronously replicates the data to a standby instance in a different availability zone.
+		It offers performance on par with the commercial database at 1/10th the cost.
+		It is highly secured as it lets you run database instances in Amazon Virtual Private Cloud.
+		Using Amazon RDS is very cheap as the rates are very low and you get the benefit from the option of On-Demand pricing.
+		It also has support for Multi-availability zone deployment.
+
+16.What is the maximum storgage limit provided by the AWS RDS?
+	16 GB

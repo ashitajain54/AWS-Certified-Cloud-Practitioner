@@ -1,0 +1,47 @@
+1. What is AWS Simple Notification Service?
+  ANS: Amazon Simple Notification Service (Amazon SNS) is a fully managed messaging service for both application-to-application (A2A) and application-to-person (A2P) communication.
+  
+2. Can you explain the architecture of SNS?
+  ANS: The A2A pub/sub functionality provides topics for high-throughput, push-based, many-to-many messaging between distributed systems, microservices, and event-driven serverless applications. Using Amazon SNS topics, your publisher systems can fanout messages to a large number of subscriber systems, including Amazon SQS queues, AWS Lambda functions, HTTPS endpoints, and Amazon Kinesis Data Firehose, for parallel processing. The A2P functionality enables you to send messages to users at scale via SMS, mobile push, and email.
+  
+3. What are some common use cases for SNS?
+  ANS: The Amazon SNS service can support a wide variety of needs including event notification, monitoring applications, workflow systems, time-sensitive information updates, mobile applications, and any other application that generates or consumes notifications.
+  
+4. How do you create a topic in SNS?
+   ANS: 1. Sign to the Amazon SNS console .
+        2. In the left navigation pane, choose Topics.
+        3. On the Topics page, choose Create topic.
+        4. By default, the console creates a FIFO topic. ...
+        5. In the Details section, enter a Name for the topic, such as MyTopic .
+        6. Scroll to the end of the form and choose Create topic.
+        
+5. How do you subscribe to an SNS topic?
+    ANS: Subscribing to an Amazon SNS topic
+         1. Sign in to the Amazon SNS console .
+         2. In the left navigation pane, choose Subscriptions.
+         3. On the Subscriptions page, choose Create subscription.
+         4. On the Create subscription page, in the Details section, do the following: For Topic ARN, choose the Amazon Resource Name (ARN) of a topic.
+         
+6. What is the maximum size of an SNS notification payload?
+    ANS: 256KB
+    
+7. Does SNS support content filtering?
+    ANS: YES
+    
+8. Can you give me some examples of real-world applications that use SNS?
+    ANS: An Amazon SNS topic is a logical access point that acts as a communication channel. A topic lets you group multiple endpoints (such as AWS Lambda, Amazon SQS, HTTP/S, or an email address)
+    
+9. Are SNS topics durable?
+    ANS: SNS provides durable storage of all messages that it receives.
+    
+10. Is there any limit on the number of messages sent per second by SNS?
+    ANS: 10 messages per second
+    
+11. What is the Expansion of SNS?
+    ANS: Simple Notification Service.
+    
+12. Who is a subscriber in SNS?
+    ANS: A subscriber is an entity that receives the messages to the topics that they have subscribed to.
+    
+ 13. Who is a publisher?
+    ANS: A publisher is an entity that sends the messages to the message topics that they have created or have permission to publish.
